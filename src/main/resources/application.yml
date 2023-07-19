@@ -1,0 +1,33 @@
+#spring:
+#  profiles:
+#    active:
+#      - MYDB1
+#---
+#
+#spring:
+#  profiles: MYDB1
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    password: trainee
+#    url: jdbc:mysql://10.0.2.97:3306/TestDemo
+#    username: trainee
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQL8Dialect
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: update
+#
+#---
+#
+#spring:
+#  profiles: MYDB2
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    password: trainee
+#    url: jdbc:mysql://10.0.2.97:3306/TestDemo2
+#    username: trainee
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQL8Dialect
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: update
